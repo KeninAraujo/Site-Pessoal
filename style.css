@@ -708,3 +708,10 @@ button:hover .container-card {
 body.hidden {
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  section {
+    background-attachment: scroll;
+    background-position: center center;
+  }
+}
