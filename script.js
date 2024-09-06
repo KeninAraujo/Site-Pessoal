@@ -43,3 +43,9 @@ const mobileNavbar = new MobileNavbar(
 );
 
 mobileNavbar.init();
+
+window.addEventListener("load", function () {
+  const loading = document.getElementById("loading");
+  loading.style.display = "none";
+  document.body.classList.remove("hidden");
+});
