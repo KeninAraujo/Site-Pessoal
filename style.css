@@ -538,6 +538,7 @@ button {
   cursor: pointer;
   overflow: hidden;
   margin: auto;
+  text-align: center;
 }
 
 button span {
