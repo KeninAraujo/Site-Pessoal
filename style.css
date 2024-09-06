@@ -538,7 +538,6 @@ button {
   cursor: pointer;
   overflow: hidden;
   margin: auto;
-  text-align: center;
 }
 
 button span {
@@ -552,6 +551,8 @@ button span {
   font-size: 16px;
   letter-spacing: 2px;
   transition: all 0.5s;
+  text-align: center;
+  margin: auto;
 }
 
 button .container-card {
